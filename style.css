@@ -46,6 +46,48 @@ body {
 }
 
 
+/**********************************************
+*** GOAL SET BOX
+**********************************************/
+.winning-input {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%);
+    height: 200px;
+    width: 300px;
+    background: #000;
+    margin: auto;
+    padding-top: 1.2rem;
+}
+
+.winning-input h3 {
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 1rem;
+}
+
+.winning-input input {
+    height: 50px;
+    width: 80%;
+    display: block;
+    margin: 0 auto 1rem;
+    text-align: center;
+    font-size: 14px;
+}
+
+.winning-input button {
+    position: static;
+    transform: initial;
+    background: #eb4c4d;
+    color: #FFF;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 15px;
+}
+
 
 /**********************************************
 *** PLAYERS
@@ -144,7 +186,17 @@ i {
 .dice {
     position: absolute;
     left: 50%;
-    top: 178px;
+    top: 128px;
+    transform: translateX(-50%);
+    height: 100px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+    border: 1px solid #eb4c4d;
+}
+
+.dice-2 {
+    position: absolute;
+    left: 50%;
+    top: 250px;
     transform: translateX(-50%);
     height: 100px;
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
